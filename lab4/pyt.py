@@ -63,6 +63,7 @@ while j == 0:
         if (var==2):
             print(listF)
             print(max(listF))
+            print(min(listF))
         if (var==3):
             print(listY)
             print(max(listY))
