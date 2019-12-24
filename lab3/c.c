@@ -12,7 +12,8 @@ int main (void) {
     scanf("%f",&s);
     printf("Введите шаг: ");
     scanf("%f",&h);
-    j=0; while (j==0){
+    j=0; 
+    while (j==0){
     if (v==1) {
         for(;s;){
            G=(-5*(a*a+a*x-2*x*x))/(20*a*a+41*a*x+20*x*x);
